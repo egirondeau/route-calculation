@@ -17,6 +17,15 @@ class BusLine:
     def insert_stop(self, index: int, stop: Stop):
         self.stops.insert(index, stop)
 
+    def get_distance_between(self, stop1: Stop, stop2: Stop) -> float:
+        """
+        Retrieve the distance between 2 stops belonging to the bus line.
+
+        :param stop1:
+        :param stop2:
+        :return: Distance
+        """
+
 
 bus_lines: list[BusLine]
 
