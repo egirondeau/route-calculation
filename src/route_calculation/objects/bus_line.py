@@ -18,6 +18,14 @@ class BusLine:
         self.stops.insert(index, stop)
 
     def get_distance_between(self, stop1: Stop, stop2: Stop) -> float:
+        distance=0
+        if stop1==stop2:
+            return 0
+        elif stop1==neighbor:
+            return self.get_distance_between()
+        else:
+            distance.append(self.neighbor(stop1))
+            return self.get_distance_between()
         """
         Retrieve the distance between 2 stops belonging to the bus line.
 
