@@ -26,13 +26,7 @@ class BusLine:
         else:
             distance.append(self.neighbor(stop1))
             return self.get_distance_between()
-        """
-        Retrieve the distance between 2 stops belonging to the bus line.
 
-        :param stop1:
-        :param stop2:
-        :return: Distance
-        """
 
 
 bus_lines: list[BusLine]
